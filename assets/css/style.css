@@ -317,6 +317,9 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  .bi-list::before{
+    font-size: 2.1rem;
+  }
 }
 .navbar-mobile {
   position: fixed;
@@ -473,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 69vh;
   }
   #hero h1 {
-    font-size: 78px;
+    font-size: 58px;
     line-height: 1;
   }
   #hero h2 {
